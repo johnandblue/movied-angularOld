@@ -1,0 +1,7 @@
+@import "./colors.scss";
+
+html, body{
+  background-color: $background;
+  color: $text;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,16 @@
+@import '../constants.scss';
+
+.movie-list{
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-left: -$container-padding;
+  margin-right: -$container-padding;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+}

@@ -1,0 +1,8 @@
+
+<div class="movie-list">
+  <div *ngFor="let movie of movies">
+    <div *ngIf="movie.poster_path !== undefined">
+      <app-movie-list-item [movie]="movie"></app-movie-list-item>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../colors.scss";
+@import "./constants.scss";
+
+.app-container {
+  padding: $container-padding;
+}

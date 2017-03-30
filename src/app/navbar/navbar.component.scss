@@ -1,0 +1,30 @@
+@import "../../colors.scss";
+@import "../constants.scss";
+
+.navbar{
+  background-color: $background-dark;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-brand{
+    color: $primary
+}
+.dcha {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  margin-right: 20px;
+}
+
+.modal-dialog {
+  left: 0;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #f0ad4e;
+  }

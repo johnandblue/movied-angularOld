@@ -1,0 +1,34 @@
+@import '../../colors.scss';
+@import '../constants.scss';
+
+#main-info{
+  background-color: $background-light;
+  margin: -$container-padding;
+  margin-bottom: 20px;
+  padding: $container-padding;
+
+  div.container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  h2, p label{
+    color: $text-dark;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  label{
+    margin: 0;
+    margin-right: 10px;
+  }
+  p {
+    margin: 0rem;
+  }
+}
+
+#poster{
+  width: 242px;
+  height: 368px;
+  margin-right: 20px;
+}

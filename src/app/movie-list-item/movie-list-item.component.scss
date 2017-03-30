@@ -1,0 +1,15 @@
+a{
+  cursor: pointer;
+}
+.movie-card{
+  padding:0;
+  height: 323px;
+  width: 215px;
+  display:flex;
+  margin-right: 15px;
+
+  img {
+    width:100%;
+    height: 100%;
+  }
+}
